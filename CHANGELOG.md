@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.3.290](https://github.com/UKGovernmentBEIS/inspect_ai/compare/0.3.289...0.3.290) (2026-11-10)
+
+
+### Features
+
+* each message keeps one id through the agent bridge and the log, and tool events record the message that proposed them ([#6143](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6143)) ([187d19f](https://github.com/UKGovernmentBEIS/inspect_ai/commit/187d19f65c82f3bc49c1b3d82726e2b4f67bb78f))
+* **google:** support Gemini 4 Carbon ([#6466](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6466)) ([8c6f22a](https://github.com/UKGovernmentBEIS/inspect_ai/commit/8c6f22ad8315fa7f9f8870369ba2e28c47d76886))
+* **meta:** support Muse Ember 1.0 and Muse Wonder 1.0 ([#6467](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6467)) ([e95b39b](https://github.com/UKGovernmentBEIS/inspect_ai/commit/e95b39b81a659707a321160b22c3f3d073153a22))
+* **sentinel:** sign calls to a sentinel sidecar instead of sending the eval's token ([#6444](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6444)) ([9961043](https://github.com/UKGovernmentBEIS/inspect_ai/commit/9961043a82527fac6bbc938a4397692b76f07c5d))
+
+
+### Bug Fixes
+
+* a retry chosen in the cancel dialog no longer re-runs a task cancelled with inspect ctl ([#6457](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6457)) ([40d60b8](https://github.com/UKGovernmentBEIS/inspect_ai/commit/40d60b8e2a75d9dae2f93f85235e7238607c3d8b))
+* an operator cancel during scoring no longer hides a scorer error ([#6455](https://github.com/UKGovernmentBEIS/inspect_ai/issues/6455)) ([4364a56](https://github.com/UKGovernmentBEIS/inspect_ai/commit/4364a566d5e9ae4feda7ae24128e82523fea0973))
+
 ## [0.3.289](https://github.com/UKGovernmentBEIS/inspect_ai/compare/0.3.288...0.3.289) (2026-11-10)
 
 
